@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Weather App in Next JS",
-  description: "Weather App in Next JS using Typescript and Javascript.",
+  description: "Weather App in Next JS using Typescript and Javascript.", 
 };
 
 export default function RootLayout({
