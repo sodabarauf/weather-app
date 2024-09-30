@@ -6,7 +6,7 @@ const WeatherApp = () => {
   const [weatherData, setWeatherData] = useState(null);
 
   const handleSearch = async (city) => {
-    const API_KEY = "c4b469446da64a62a7455412241903";
+    const API_KEY = "c4b469446da64a62a7455412241903"; 
     try {
       const response = await fetch(
         `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=yes`
